@@ -49,10 +49,10 @@ Ensure you have the following installed:
     Update the `contacts.csv` file with your contacts in the following format:
 
     ```csv
-    Name,Phone
-    Alice,1234567890
-    Bob,0987654321
-    Charlie,1122334455
+    Phone,Name
+    1234567890,Alice
+    0987654321,Bob
+    1122334455,Charlie
     ```
 
 2. **Customize Message:**
@@ -178,3 +178,4 @@ The script automates the sending of WhatsApp messages using Selenium. It reads c
 - **Progress File Corruption**: If the progress file is corrupted, the script will start from the beginning.
 
 For further assistance, feel free to [open an issue](https://github.com/apk015/WhatsApp-Unofficial-API/issues).
+
